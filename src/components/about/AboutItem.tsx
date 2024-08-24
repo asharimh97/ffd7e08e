@@ -8,6 +8,7 @@ interface AboutItemProps {
 function AboutItem({ service, pushLeft = false }: AboutItemProps) {
   return (
     <div
+      data-testid="about-item"
       className={`w-full px-4 mb-8 flex flex-col items-center gap-10 ${pushLeft ? "md:flex-row-reverse" : "md:flex-row"}`}
     >
       <div className="w-3/4 md:w-1/2">

@@ -6,7 +6,10 @@ interface HighlightCardProps {
 
 function HighlightCard({ service }: HighlightCardProps) {
   return (
-    <div className="w-full p-8 rounded-lg bg-white shadow-xl shadow-indigo-50">
+    <div
+      data-testid="highlight-card"
+      className="w-full p-8 rounded-lg bg-white shadow-xl shadow-indigo-50"
+    >
       <div className="flex flex-col gap-4 text-center md:text-left">
         <img
           src={service.icon}
