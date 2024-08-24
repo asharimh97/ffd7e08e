@@ -23,24 +23,24 @@ export const services: Array<Service> = [
 
 export const highlights: Array<Highlight> = [
   {
-    title: "Financial Reporting",
+    title: "Searchable Data",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     icon: "/sample-service.svg",
   },
   {
     title: "Chart Data",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    icon: "/sample-service.svg",
+    icon: "/sample-service-2.svg",
   },
   {
     title: "Consultation",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    icon: "/sample-service.svg",
+    icon: "/sample-service-2.svg",
   },
   {
     title: "Detailed Information",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    icon: "/sample-service.svg",
+    icon: "/sample-service-2.svg",
   },
   {
     title: "Tracking",

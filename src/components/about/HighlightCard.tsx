@@ -11,7 +11,7 @@ function HighlightCard({ service }: HighlightCardProps) {
         <img
           src={service.icon}
           alt={service.title}
-          className="mx-auto md:mx-0 w-[75px]"
+          className="h-[90px] w-fit mx-auto md:mx-0"
         />
         <h3 className="text-xl font-bold text-dark">{service.title}</h3>
         <p className="text-sm text-body-color">{service.description}</p>
