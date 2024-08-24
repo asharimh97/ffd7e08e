@@ -16,7 +16,7 @@ function Navigation() {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#contact">Pricing</a>
+            <a href="#pricing">Pricing</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
@@ -24,7 +24,7 @@ function Navigation() {
         </ul>
         <a
           href="/"
-          className="border border-indigo-600 bg-indigo-700 text-white rounded-md py-1 px-6 font-semibold text-sm"
+          className="border border-indigo-600 bg-indigo-700 text-white rounded-md py-2 px-6 font-semibold text-sm"
         >
           Login
         </a>

@@ -4,7 +4,10 @@ import PricingCard from "./PricingCard";
 
 function Pricing() {
   return (
-    <section className="bg-white pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] relative z-20 overflow-hidden">
+    <section
+      id="pricing"
+      className="bg-white pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] relative z-20 overflow-hidden"
+    >
       <div className="container">
         <SectionTitle
           title="Our Pricing Plan"
